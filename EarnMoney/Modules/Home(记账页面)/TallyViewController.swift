@@ -18,10 +18,10 @@ class TallyViewController: UIViewController{
     @IBOutlet weak var ChartButton: UIButton!
     @IBOutlet weak var TallyButton: UIButton!
     
-    var piechartview:PieChartView = PieChartView.init(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 500))
-    var o_piechartview:PieChartView = PieChartView.init(frame: CGRect(x: 0, y: 900, width: UIScreen.main.bounds.width, height: 500))
-    var barchartview:BarChartView = BarChartView.init(frame: CGRect(x: 0, y: 500, width: UIScreen.main.bounds.width, height: 400))
-    var o_barchartview:BarChartView = BarChartView.init(frame: CGRect(x: 0, y: 1400, width: UIScreen.main.bounds.width, height: 400))
+    var piechartview:PieChartView = PieChartView.init(frame: CGRect(x: 0, y: 100, width: UIScreen.main.bounds.width, height: 500))
+    var o_piechartview:PieChartView = PieChartView.init(frame: CGRect(x: 0, y: 1300, width: UIScreen.main.bounds.width, height: 500))
+    var barchartview:BarChartView = BarChartView.init(frame: CGRect(x: 0, y: 700, width: UIScreen.main.bounds.width, height: 400))
+    var o_barchartview:BarChartView = BarChartView.init(frame: CGRect(x: 0, y: 2000, width: UIScreen.main.bounds.width, height: 400))
     var tableView:UITableView?
     var scrollview:UIScrollView?
     var items:[String:[TallyItem]] = [:]
@@ -189,7 +189,7 @@ class TallyViewController: UIViewController{
         scrollview =  UIScrollView(frame: CGRect(x: 0, y: 320, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height-420))
         scrollview?.backgroundColor = .systemBlue
                 // Set the contentSize to 100 times the height of the phone's screen so that we can add 100 images in the next step
-        scrollview?.contentSize = CGSize(width: (scrollview?.contentSize.width)!, height: UIScreen.main.bounds.height*100)
+        scrollview?.contentSize = CGSize(width: (scrollview?.contentSize.width)!, height: 2500)//UIScreen.main.bounds.height*10)
         piechartview.data = customizeChart(dataPoints: names, values: values.map{ Double($0) },type: 0)
         o_piechartview.data = customizeChart(dataPoints: o_names, values: o_values.map{ Double($0) },type: 1)
         barchartview.data = customizeBarChart(dataPoints: names, values: values.map{ Double($0) },type: 0)
@@ -221,8 +221,8 @@ class TallyViewController: UIViewController{
       var colors: [UIColor] = []
       for _ in 0..<numbersOfColor {
         let red = Double(arc4random_uniform(256))
-        let green = Double(arc4random_uniform(256))
-        let blue = Double(arc4random_uniform(256))
+        let green = Double(180 + arc4random_uniform(76))
+        let blue = Double(200 + arc4random_uniform(56))
         let color = UIColor(red: CGFloat(red/255), green: CGFloat(green/255), blue: CGFloat(blue/255), alpha: 1)
         colors.append(color)
       }
