@@ -1,0 +1,6 @@
+module Pods_EarnMoney {
+  umbrella header "Pods-EarnMoney-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,26 @@
+PODS:
+  - Charts (4.0.2):
+    - Charts/Core (= 4.0.2)
+  - Charts/Core (4.0.2):
+    - SwiftAlgorithms (~> 1.0)
+  - MonthYearPicker (4.0.2)
+  - SwiftAlgorithms (1.0.0)
+
+DEPENDENCIES:
+  - Charts (~> 4.0.2)
+  - MonthYearPicker (~> 4.0.2)
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - MonthYearPicker
+    - SwiftAlgorithms
+
+SPEC CHECKSUMS:
+  Charts: cfa4e911e6dc289582c2fe011a0e87c03d96727f
+  MonthYearPicker: 91f77106e6806d8c93c69e943ab0795fd420657f
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+
+PODFILE CHECKSUM: 51d7ec2a9ab0f47d4bd47ed0f4c65ad5fd28ab43
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="X6g-sM-jkE">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home Tab Bar Controller-->
+        <scene sceneID="WzQ-9f-29f">
+            <objects>
+                <tabBarController id="X6g-sM-jkE" customClass="HomeTabBarController" customModule="EarnMoney" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="B17-ZX-SRk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="NU8-fa-SAd" kind="relationship" relationship="viewControllers" id="x9i-RY-P6C"/>
+                        <segue destination="6AO-Jf-V4T" kind="relationship" relationship="viewControllers" id="29q-k4-zPg"/>
+                        <segue destination="1jj-Vg-xBQ" kind="relationship" relationship="viewControllers" id="kdd-x6-FK3"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L1X-Ng-LQc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-722" y="65"/>
+        </scene>
+        <!--更多信息-->
+        <scene sceneID="JX0-Jn-wQT">
+            <objects>
+                <navigationController id="NU8-fa-SAd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="更多信息" image="line.horizontal.2.decrease.circle.fill" catalog="system" id="Gdb-uI-9Hg"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="X2Z-lv-tiX">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jl8-mg-GDx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="-61"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4zW-6m-RcT">
+            <objects>
+                <viewController storyboardIdentifier="test" id="AUk-VM-XnF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YbL-8o-hc7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAx-7u-K2h">
+                                <rect key="frame" x="186" y="394" width="30" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="a3k-I2-yCd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7L1-R7-qDz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1115" y="-160"/>
+        </scene>
+        <!--蓝鲸赚赚-->
+        <scene sceneID="4nm-g1-at0">
+            <objects>
+                <tableViewController id="lrf-OL-DJx" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="uAK-j9-OL1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ghb-hj-bho">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ghb-hj-bho" id="CYu-em-O9h">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="lrf-OL-DJx" id="zOP-pu-Ggj"/>
+                            <outlet property="delegate" destination="lrf-OL-DJx" id="bXI-eq-TJ8"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="蓝鲸赚赚" id="c8Z-Vq-fEW"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Hg-3S-w5n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="834" y="1307"/>
+        </scene>
+        <!--蓝鲸赚赚-->
+        <scene sceneID="lNp-AU-OEx">
+            <objects>
+                <tableViewController id="SgH-rd-sz8" customClass="TallyTableViewController" customModule="EarnMoney" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="5uN-0l-20I">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TallyCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TallyCell" id="SEj-ZV-xzv" customClass="TallyTableViewCell" customModule="EarnMoney" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SEj-ZV-xzv" id="YP8-u6-XHj">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHx-hm-eP2">
+                                            <rect key="frame" x="352" y="10" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FkI-dH-4hO">
+                                            <rect key="frame" x="32" y="-2" width="42" height="48"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmb-a7-f2C">
+                                            <rect key="frame" x="99" y="11" width="197" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="TallyImage" destination="FkI-dH-4hO" id="Ewu-6D-hzB"/>
+                                    <outlet property="money" destination="oHx-hm-eP2" id="6bh-Xe-eve"/>
+                                    <outlet property="remark" destination="Pmb-a7-f2C" id="JS5-Bf-oLw"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="SgH-rd-sz8" id="Bmp-8p-gBT"/>
+                            <outlet property="delegate" destination="SgH-rd-sz8" id="x9y-xm-1qS"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="蓝鲸赚赚" id="to3-0u-Utz"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sCV-O6-sHz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1770" y="652"/>
+        </scene>
+        <!--个人信息-->
+        <scene sceneID="yTi-Nf-x3N">
+            <objects>
+                <navigationController id="1jj-Vg-xBQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="个人信息" image="person.fill" catalog="system" id="wvm-kD-ris"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MW6-Ev-I4E">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="lrf-OL-DJx" kind="relationship" relationship="rootViewController" id="OkJ-3V-bN3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kdy-X5-Q4b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57" y="1307"/>
+        </scene>
+        <!--蓝鲸赚赚-->
+        <scene sceneID="yk0-MZ-e6V">
+            <objects>
+                <navigationController title="蓝鲸赚赚" id="6AO-Jf-V4T" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="记账界面" image="homekit" catalog="system" id="raZ-2f-7H1"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tQ2-zW-byx">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nvd-tN-4ge" kind="relationship" relationship="rootViewController" id="GeO-Wb-6Di"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sWm-yw-C1r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="197" y="569"/>
+        </scene>
+        <!--蓝鲸赚赚-->
+        <scene sceneID="OkU-ii-OPu">
+            <objects>
+                <viewController storyboardIdentifier="TallyWindow" id="nvd-tN-4ge" customClass="TallyViewController" customModule="EarnMoney" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JaN-aE-XNR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C4c-LY-6ST">
+                                <rect key="frame" x="0.0" y="88" width="414" height="230"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="NaN" textAlignment="natural" minimumFontSize="17" background="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="j0s-nZ-Hby">
+                                        <rect key="frame" x="0.0" y="57" width="95.5" height="67.5"/>
+                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="35"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4RO-Kp-dtY">
+                                        <rect key="frame" x="60" y="196" width="135" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="135" id="lTW-As-oiC"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="记账"/>
+                                        <connections>
+                                            <action selector="TouchTallyButton:" destination="nvd-tN-4ge" eventType="touchUpInside" id="a3S-HW-Hpp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umS-IL-CwY">
+                                        <rect key="frame" x="195" y="196" width="135" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="135" id="rtD-NU-IYm"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="图表"/>
+                                        <connections>
+                                            <action selector="TouchChartButton:" destination="nvd-tN-4ge" eventType="touchUpInside" id="XiO-J9-OXR"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="支出：0" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MeI-ns-f2C">
+                                        <rect key="frame" x="103.5" y="49" width="230" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="230" id="ArO-HX-p4k"/>
+                                            <constraint firstAttribute="height" constant="29" id="g4z-1f-2JC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="收入：0" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmj-6e-PCY">
+                                        <rect key="frame" x="176" y="119" width="230" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="230" id="MVp-ze-hqZ"/>
+                                            <constraint firstAttribute="height" constant="29" id="afc-qc-hcN"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstItem="MeI-ns-f2C" firstAttribute="leading" secondItem="j0s-nZ-Hby" secondAttribute="trailing" constant="8" id="3st-GC-AcH"/>
+                                    <constraint firstItem="j0s-nZ-Hby" firstAttribute="top" secondItem="C4c-LY-6ST" secondAttribute="top" constant="57" id="D9i-2c-Fz6"/>
+                                    <constraint firstItem="qmj-6e-PCY" firstAttribute="top" secondItem="C4c-LY-6ST" secondAttribute="top" constant="125" id="Jmu-i1-B4J"/>
+                                    <constraint firstAttribute="bottom" secondItem="4RO-Kp-dtY" secondAttribute="bottom" id="SG9-Kx-V8O"/>
+                                    <constraint firstAttribute="bottom" secondItem="umS-IL-CwY" secondAttribute="bottom" id="Uzz-Sv-I25"/>
+                                    <constraint firstItem="4RO-Kp-dtY" firstAttribute="leading" secondItem="C4c-LY-6ST" secondAttribute="leading" constant="60" id="X6k-Xx-ZUY"/>
+                                    <constraint firstItem="MeI-ns-f2C" firstAttribute="top" secondItem="C4c-LY-6ST" secondAttribute="top" constant="49" id="Yb9-23-x3K"/>
+                                    <constraint firstItem="umS-IL-CwY" firstAttribute="leading" secondItem="4RO-Kp-dtY" secondAttribute="trailing" id="a3n-Ws-dwe"/>
+                                    <constraint firstItem="qmj-6e-PCY" firstAttribute="leading" secondItem="j0s-nZ-Hby" secondAttribute="trailing" constant="8" id="fK1-R9-hEg"/>
+                                    <constraint firstAttribute="height" constant="230" id="mqG-vX-jTS"/>
+                                    <constraint firstItem="j0s-nZ-Hby" firstAttribute="leading" secondItem="C4c-LY-6ST" secondAttribute="leading" id="mrE-uQ-083"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bay-ju-lvj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="C4c-LY-6ST" firstAttribute="trailing" secondItem="bay-ju-lvj" secondAttribute="trailing" id="IZe-FL-yIZ"/>
+                            <constraint firstItem="C4c-LY-6ST" firstAttribute="top" secondItem="bay-ju-lvj" secondAttribute="top" id="PxN-kp-Fff"/>
+                            <constraint firstItem="C4c-LY-6ST" firstAttribute="leading" secondItem="bay-ju-lvj" secondAttribute="leading" id="abX-fL-VyE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="蓝鲸赚赚" id="d1i-WX-rGA"/>
+                    <connections>
+                        <outlet property="ChartButton" destination="umS-IL-CwY" id="oJ4-iI-bK7"/>
+                        <outlet property="ExpendLabel" destination="qmj-6e-PCY" id="lcM-ZC-V8N"/>
+                        <outlet property="IncomeLabel" destination="MeI-ns-f2C" id="T9j-IA-wBS"/>
+                        <outlet property="TallyButton" destination="4RO-Kp-dtY" id="OpW-aX-rMt"/>
+                        <outlet property="textField" destination="j0s-nZ-Hby" id="ay8-Jy-dIE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OP8-mt-7A5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028.985507246377" y="612.72321428571422"/>
+        </scene>
+        <!--支出-->
+        <scene sceneID="h7x-Kh-40f">
+            <objects>
+                <viewController storyboardIdentifier="addPayBill" id="oye-Wh-UQg" customClass="ChooseTypeViewController" customModule="EarnMoney" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KSy-3V-G9R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="AZc-De-IXq">
+                                <rect key="frame" x="15" y="54" width="384" height="749"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2gL-WC-ZPK">
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="0.0"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="MBc-WU-6rJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="749"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KdE-Ti-8Ut">
+                                                <rect key="frame" x="0.0" y="0.0" width="384" height="94"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sqC-Jg-UW3">
+                                                        <rect key="frame" x="0.0" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="canyin">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="餐饮">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="UrG-Qd-gtr"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lDL-So-Qhy">
+                                                        <rect key="frame" x="104" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="gouwulan">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="日用">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="Nfz-9B-2bK"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Fn-m7-Khr">
+                                                        <rect key="frame" x="208" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="jiuba">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="娱乐">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="taf-DZ-l2R"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xji-zd-xL5">
+                                                        <rect key="frame" x="312" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="gongjiaoche">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="交通">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="3SM-P9-8y4"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uLs-n4-deO">
+                                                <rect key="frame" x="0.0" y="131" width="384" height="94"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Anr-MX-GPT">
+                                                        <rect key="frame" x="0.0" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="hanbao">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="零食">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="zdy-Y1-gzV"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yRv-cI-wJT">
+                                                        <rect key="frame" x="104" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="gouwu">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="购物">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="5oX-au-N0N"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2xm-HQ-Nd9">
+                                                        <rect key="frame" x="208" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="shouji">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="通讯">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="i32-5G-LIG"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dbU-bL-EHc">
+                                                        <rect key="frame" x="312" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="youxi">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="电子">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="kHS-KJ-AoF"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zwz-BD-Gtb">
+                                                <rect key="frame" x="0.0" y="262" width="384" height="94"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ocl-BK-f9p">
+                                                        <rect key="frame" x="0.0" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="lianxiren">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="社交">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="hXU-XQ-bv6"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bcV-Ow-Cat">
+                                                        <rect key="frame" x="104" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="liwu">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="礼物">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="Wer-3L-xhf"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kHW-gK-Jmd">
+                                                        <rect key="frame" x="208" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="tushu">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="图书">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="p6T-Us-t0d"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xbQ-Ns-wle">
+                                                        <rect key="frame" x="312" y="25" width="72" height="44"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="jiaoyu">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="教育">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="vFJ-td-Xla"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cc3-S7-Fqm">
+                                                <rect key="frame" x="0.0" y="393" width="384" height="94"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YK5-vj-383">
+                                                        <rect key="frame" x="0.0" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="kuaidi">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="快递">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="mWo-5i-hJ6"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HRm-ea-syy">
+                                                        <rect key="frame" x="104" y="27" width="72" height="40"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="pets">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="宠物">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="PSH-pb-bIK"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fsX-u2-8U8">
+                                                        <rect key="frame" x="208" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="piaoju">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="演出">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="9x9-Ga-5PV"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hRU-o6-Awq">
+                                                        <rect key="frame" x="312" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="chengshi">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="住房">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="53b-OC-BhH"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y8U-uS-VCG">
+                                                <rect key="frame" x="0.0" y="524" width="384" height="94"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="isw-vr-GSo">
+                                                        <rect key="frame" x="0.0" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="shoucang">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="爱好">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="0Mf-Cx-lQK"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aNK-e4-MZF">
+                                                        <rect key="frame" x="104" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="ATM">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="交易">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="2xR-gS-s12"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Caf-Yv-1nC">
+                                                        <rect key="frame" x="208" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="huiyuan">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="会员">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="2fh-Lv-oF0"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BEi-li-rO5">
+                                                        <rect key="frame" x="312" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="weixiu">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="维修">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="eKD-jv-qh6"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HId-b8-Zh6">
+                                                <rect key="frame" x="0.0" y="655" width="384" height="94"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L4J-AO-nmo">
+                                                        <rect key="frame" x="0.0" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="dianzan">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="打赏">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="eJB-5A-UCA"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ynx-TU-aXJ">
+                                                        <rect key="frame" x="104" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="youer">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="幼儿">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="LYu-xl-VCB"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tQg-X7-UsV">
+                                                        <rect key="frame" x="208" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="tiaojie">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="交通">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="HXc-ca-MQK"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y3r-rO-Itn">
+                                                        <rect key="frame" x="312" y="23" width="72" height="48"/>
+                                                        <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="shezhi">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="其他">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="12" name="STSong"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="nmr-lB-OT8" kind="show" identifier="payment" id="8mH-XP-GYo"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="onU-xQ-Zi3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="onU-xQ-Zi3" firstAttribute="trailing" secondItem="AZc-De-IXq" secondAttribute="trailing" constant="15" id="X0U-uS-ttJ"/>
+                            <constraint firstItem="AZc-De-IXq" firstAttribute="top" secondItem="onU-xQ-Zi3" secondAttribute="top" constant="10" id="aCM-4b-m49"/>
+                            <constraint firstItem="AZc-De-IXq" firstAttribute="leading" secondItem="onU-xQ-Zi3" secondAttribute="leading" constant="15" id="gVV-19-kWH"/>
+                            <constraint firstItem="AZc-De-IXq" firstAttribute="bottom" secondItem="onU-xQ-Zi3" secondAttribute="bottom" constant="-10" id="sbo-8j-8l6"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="支出" id="Tun-AE-xe8" customClass="TabBarItem" customModule="EarnMoney" customModuleProvider="target">
+                        <inset key="largeContentSizeImageInsets" minX="1" minY="10" maxX="0.0" maxY="10"/>
+                        <color key="badgeColor" systemColor="systemPurpleColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
+                                <color key="value" systemColor="systemTealColor"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="cLA-6E-iGe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5uH-sa-9Ex" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4486" y="256"/>
+        </scene>
+        <!--Add Bill Item View Controller-->
+        <scene sceneID="um0-uR-Dem">
+            <objects>
+                <viewController storyboardIdentifier="EditWindow" id="nmr-lB-OT8" customClass="AddBillItemViewController" customModule="EarnMoney" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9hd-Iv-nWS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="hpP-Jy-stx">
+                                <rect key="frame" x="67" y="149" width="115" height="188.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="mys-Vc-Oce">
+                                        <rect key="frame" x="0.0" y="0.0" width="115" height="39.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日期：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2OD-Lb-KIy">
+                                                <rect key="frame" x="0.0" y="0.0" width="76" height="39.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <color key="textColor" systemColor="linkColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eXR-zo-VIW">
+                                                <rect key="frame" x="81" y="0.0" width="34" height="39.5"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <color key="textColor" systemColor="systemIndigoColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="datePick:" destination="nmr-lB-OT8" eventType="touchUpInside" id="OZO-i7-XnS"/>
+                                                    <action selector="showDatePicker:" destination="nmr-lB-OT8" eventType="touchUpInside" id="98k-7g-r8z"/>
+                                                </connections>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="oga-ce-rcy">
+                                        <rect key="frame" x="0.0" y="74.5" width="115" height="39.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="备注：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1y-Im-Mxs">
+                                                <rect key="frame" x="0.0" y="0.0" width="76" height="39.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <color key="textColor" systemColor="linkColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="MNJ-tt-BqJ">
+                                                <rect key="frame" x="81" y="0.0" width="34" height="39.5"/>
+                                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                                <color key="textColor" systemColor="systemPurpleColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="iII-3H-17y">
+                                        <rect key="frame" x="0.0" y="149" width="115" height="39.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金额：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WY3-qy-FYW">
+                                                <rect key="frame" x="0.0" y="0.0" width="76" height="39.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <color key="textColor" systemColor="linkColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="7rW-TJ-mua">
+                                                <rect key="frame" x="81" y="0.0" width="34" height="39.5"/>
+                                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                                <color key="textColor" systemColor="systemPurpleColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9rR-x0-nRX">
+                                <rect key="frame" x="300" y="38" width="57" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="done"/>
+                                <connections>
+                                    <action selector="done:" destination="nmr-lB-OT8" eventType="touchUpInside" id="bfE-Ue-G9q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cf6-iB-Yrn">
+                                <rect key="frame" x="33" y="38" width="87" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="cancel"/>
+                                <connections>
+                                    <action selector="cancle:" destination="nmr-lB-OT8" eventType="touchUpInside" id="2A7-lq-QCS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CgD-jY-Njh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CgD-jY-Njh" firstAttribute="trailing" secondItem="9rR-x0-nRX" secondAttribute="trailing" constant="10" id="70S-FL-LFh"/>
+                            <constraint firstItem="cf6-iB-Yrn" firstAttribute="leading" secondItem="CgD-jY-Njh" secondAttribute="leading" constant="10" id="SAG-Ol-ly7"/>
+                            <constraint firstItem="cf6-iB-Yrn" firstAttribute="top" secondItem="CgD-jY-Njh" secondAttribute="top" constant="10" id="Tmx-xz-rsq"/>
+                            <constraint firstItem="9rR-x0-nRX" firstAttribute="top" secondItem="CgD-jY-Njh" secondAttribute="top" constant="10" id="c7Z-76-Cl7"/>
+                            <constraint firstItem="hpP-Jy-stx" firstAttribute="leading" secondItem="CgD-jY-Njh" secondAttribute="leading" constant="67" id="ecG-9M-64V"/>
+                            <constraint firstItem="hpP-Jy-stx" firstAttribute="top" secondItem="CgD-jY-Njh" secondAttribute="top" constant="105" id="xE0-t7-Nmq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fFF-As-VSz"/>
+                    <connections>
+                        <outlet property="dateText" destination="eXR-zo-VIW" id="8ao-p1-7xF"/>
+                        <outlet property="priceText" destination="7rW-TJ-mua" id="cPc-Jw-bIR"/>
+                        <outlet property="remarkText" destination="MNJ-tt-BqJ" id="X6M-tS-SnM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A7I-d5-goc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5749" y="1167"/>
+        </scene>
+        <!--Tab Bar View Controller-->
+        <scene sceneID="VRf-5v-vCH">
+            <objects>
+                <tabBarController storyboardIdentifier="addBillTab" hidesBottomBarWhenPushed="YES" id="DYS-sn-lG4" customClass="TabBarViewController" customModule="EarnMoney" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ZNT-x4-ddv"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mBA-wU-tzI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                        <color key="barTintColor" systemColor="systemIndigoColor"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oye-Wh-UQg" kind="relationship" relationship="viewControllers" id="u4h-5D-Sw2"/>
+                        <segue destination="qMp-51-19w" kind="relationship" relationship="viewControllers" id="x3t-pm-ES6"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Lb-bR-Q5W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3055" y="966"/>
+        </scene>
+        <!--收入-->
+        <scene sceneID="x0n-3s-G4U">
+            <objects>
+                <viewController storyboardIdentifier="addIncomeBill" id="qMp-51-19w" customClass="ChooseTypeViewController" customModule="EarnMoney" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n7L-PI-8cv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="9gd-ck-IhS">
+                                <rect key="frame" x="15" y="49" width="384" height="754"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EGU-gp-DvF">
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="121"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CGG-af-yoq">
+                                                <rect key="frame" x="0.0" y="36.5" width="72" height="48"/>
+                                                <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="ATM">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="工资">
+                                                            <attributes>
+                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <font key="NSFont" size="12" name="STSong"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="nmr-lB-OT8" kind="show" identifier="income" id="D1e-rs-HWZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2aV-FF-kj0">
+                                                <rect key="frame" x="104" y="36.5" width="72" height="48"/>
+                                                <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="hongbao">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="红包">
+                                                            <attributes>
+                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <font key="NSFont" size="12" name="STSong"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="nmr-lB-OT8" kind="show" identifier="income" id="Oli-sP-JfT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZiG-ev-lDk">
+                                                <rect key="frame" x="208" y="36.5" width="72" height="48"/>
+                                                <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="shouji">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="通讯">
+                                                            <attributes>
+                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <font key="NSFont" size="12" name="STSong"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="nmr-lB-OT8" kind="show" identifier="income" id="WB8-b1-njv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Foc-bc-tYl">
+                                                <rect key="frame" x="312" y="36.5" width="72" height="48"/>
+                                                <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="youxi">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="电子">
+                                                            <attributes>
+                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <font key="NSFont" size="12" name="STSong"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="nmr-lB-OT8" kind="show" identifier="income" id="V6t-2g-h8J"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="q74-92-5sp">
+                                        <rect key="frame" x="0.0" y="158" width="384" height="121.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="05t-my-kNr">
+                                                <rect key="frame" x="0.0" y="37" width="72" height="48"/>
+                                                <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="lianxiren">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="社交">
+                                                            <attributes>
+                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <font key="NSFont" size="12" name="STSong"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="nmr-lB-OT8" kind="show" identifier="income" id="kqv-Tl-izc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G8a-ut-WWz">
+                                                <rect key="frame" x="104" y="37" width="72" height="48"/>
+                                                <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="liwu">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="礼物">
+                                                            <attributes>
+                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <font key="NSFont" size="12" name="STSong"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="nmr-lB-OT8" kind="show" identifier="income" id="Yh5-YK-njX"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dKS-A3-Nrb">
+                                                <rect key="frame" x="208" y="37" width="72" height="48"/>
+                                                <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="tushuguan">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="图书">
+                                                            <attributes>
+                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <font key="NSFont" size="12" name="STSong"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="nmr-lB-OT8" kind="show" identifier="income" id="5xe-ET-1YB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZiS-Xk-WyS">
+                                                <rect key="frame" x="312" y="39" width="72" height="44"/>
+                                                <inset key="titleEdgeInsets" minX="-50" minY="60" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="jiaoyu">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="教育">
+                                                            <attributes>
+                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <font key="NSFont" size="12" name="STSong"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="rightToLeft" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="nmr-lB-OT8" kind="show" identifier="income" id="GIG-xo-0Ov"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZMd-W9-nU1">
+                                        <rect key="frame" x="0.0" y="316.5" width="384" height="121"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gs1-tv-mcl">
+                                        <rect key="frame" x="0.0" y="474.5" width="384" height="121.5"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="590-ke-kQ9">
+                                        <rect key="frame" x="0.0" y="633" width="384" height="121"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ddB-AR-pbB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ddB-AR-pbB" firstAttribute="trailing" secondItem="9gd-ck-IhS" secondAttribute="trailing" constant="15" id="3Gc-FY-h8j"/>
+                            <constraint firstItem="9gd-ck-IhS" firstAttribute="leading" secondItem="ddB-AR-pbB" secondAttribute="leading" constant="15" id="AQx-b8-Ig9"/>
+                            <constraint firstItem="9gd-ck-IhS" firstAttribute="top" secondItem="ddB-AR-pbB" secondAttribute="top" constant="5" id="prF-6g-lY5"/>
+                            <constraint firstItem="ddB-AR-pbB" firstAttribute="bottom" secondItem="9gd-ck-IhS" secondAttribute="bottom" constant="10" id="qGl-5l-lOA"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="收入" id="ddc-1K-QQt" customClass="TabBarItem" customModule="EarnMoney" customModuleProvider="target">
+                        <inset key="largeContentSizeImageInsets" minX="1" minY="1" maxX="0.0" maxY="13"/>
+                        <color key="badgeColor" systemColor="systemPurpleColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" systemColor="systemPurpleColor"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
+                                <color key="value" systemColor="systemTealColor"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="o94-hw-AC4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6vY-3T-wF7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4661" y="1510"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="p6T-Us-t0d"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="ATM" width="48" height="48"/>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="canyin" width="48" height="48"/>
+        <image name="chengshi" width="48" height="48"/>
+        <image name="dianzan" width="48" height="48"/>
+        <image name="gongjiaoche" width="48" height="48"/>
+        <image name="gouwu" width="48" height="48"/>
+        <image name="gouwulan" width="48" height="48"/>
+        <image name="hanbao" width="48" height="48"/>
+        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="hongbao" width="48" height="48"/>
+        <image name="huiyuan" width="48" height="48"/>
+        <image name="jiaoyu" width="48" height="44"/>
+        <image name="jiuba" width="48" height="48"/>
+        <image name="kuaidi" width="48" height="48"/>
+        <image name="lianxiren" width="48" height="48"/>
+        <image name="line.horizontal.2.decrease.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="liwu" width="48" height="48"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="pets" width="48" height="40"/>
+        <image name="piaoju" width="48" height="48"/>
+        <image name="shezhi" width="48" height="48"/>
+        <image name="shoucang" width="48" height="48"/>
+        <image name="shouji" width="48" height="48"/>
+        <image name="tiaojie" width="48" height="48"/>
+        <image name="tushu" width="48" height="48"/>
+        <image name="tushuguan" width="48" height="48"/>
+        <image name="weixiu" width="48" height="48"/>
+        <image name="youer" width="48" height="48"/>
+        <image name="youxi" width="48" height="48"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
