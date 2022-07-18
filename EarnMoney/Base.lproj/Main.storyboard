@@ -299,10 +299,10 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jRj-yn-wPP">
-                                                <rect key="frame" x="0.0" y="16" width="103.5" height="48"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="103.5" height="80"/>
                                                 <inset key="titleEdgeInsets" minX="-95" minY="60" maxX="0.0" maxY="-20"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" image="test9">
+                                                <state key="normal" image="food">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="餐饮">
                                                             <attributes>
@@ -384,7 +384,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="103.5" height="80"/>
                                                 <inset key="titleEdgeInsets" minX="-80" minY="60" maxX="0.0" maxY="-30"/>
                                                 <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" image="25">
+                                                <state key="normal" image="snacks">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="零食">
                                                             <attributes>
@@ -504,7 +504,7 @@
                                                 <rect key="frame" x="207" y="0.0" width="103.5" height="80"/>
                                                 <inset key="titleEdgeInsets" minX="-80" minY="60" maxX="0.0" maxY="-30"/>
                                                 <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" image="33">
+                                                <state key="normal" image="book">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="图书">
                                                             <attributes>
@@ -1243,16 +1243,16 @@
         <segue reference="PfA-x4-aGk"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="25" width="80" height="80"/>
-        <image name="33" width="80" height="80"/>
         <image name="ATM" width="80" height="80"/>
         <image name="amusement" width="80" height="80"/>
         <image name="baba" width="80" height="80"/>
         <image name="baby" width="80" height="80"/>
+        <image name="book" width="80" height="80"/>
         <image name="calendar" catalog="system" width="128" height="106"/>
         <image name="daily" width="80" height="80"/>
         <image name="edu" width="80" height="80"/>
         <image name="fix" width="80" height="80"/>
+        <image name="food" width="80" height="80"/>
         <image name="game" width="80" height="80"/>
         <image name="gift" width="80" height="80"/>
         <image name="goodjob" width="80" height="80"/>
@@ -1271,8 +1271,8 @@
         <image name="salary" width="80" height="80"/>
         <image name="save" width="80" height="80"/>
         <image name="shopping" width="80" height="80"/>
+        <image name="snacks" width="80" height="80"/>
         <image name="social" width="80" height="80"/>
-        <image name="test9" width="72" height="48"/>
         <image name="ticket" width="80" height="80"/>
         <image name="traffic" width="80" height="80"/>
         <image name="vip" width="80" height="80"/>
