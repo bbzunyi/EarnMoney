@@ -1,4 +1,4 @@
-module MonthYearPicker {
+framework module MonthYearPicker {
   umbrella header "MonthYearPicker-umbrella.h"
 
   export *

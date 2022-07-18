@@ -322,7 +322,7 @@ class TallyViewController: UIViewController{
             self.textField.text = dateString
             self.textField.resignFirstResponder()
             countIncomeAndExpense()
-            TouchChartButton(self)
+            TouchTallyButton(self)
         }
     }
     /*

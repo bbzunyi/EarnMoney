@@ -1,4 +1,4 @@
-module Pods_EarnMoney {
+framework module Pods_EarnMoney {
   umbrella header "Pods-EarnMoney-umbrella.h"
 
   export *

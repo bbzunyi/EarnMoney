@@ -46,6 +46,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
         saveData()
+        savejobData()
     }
 
     func saveData(){
@@ -56,6 +57,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let navigationController = TabBarController.selectedViewController as! UINavigationController
         let controller = navigationController.viewControllers.first as! TallyViewController
        // let controller = navigationController.viewControllers.first as! TallyViewController
+        controller.saveAllItems()
+    }
+    func savejobData(){
+        let TabBarController = window!.rootViewController as! HomeTabBarController
+        TabBarController.selectedIndex = 0
+        let navigationController = TabBarController.selectedViewController as! UINavigationController
+        let controller = navigationController.viewControllers.first as! MoreTableViewController
         controller.saveAllItems()
     }
 }

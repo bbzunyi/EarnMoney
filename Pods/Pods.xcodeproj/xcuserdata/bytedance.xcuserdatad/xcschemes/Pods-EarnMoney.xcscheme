@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "90070079979E3BFCA9168FE29EDA57CA"
-               BuildableName = "libPods-EarnMoney.a"
+               BuildableName = "Pods_EarnMoney.framework"
                BlueprintName = "Pods-EarnMoney"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

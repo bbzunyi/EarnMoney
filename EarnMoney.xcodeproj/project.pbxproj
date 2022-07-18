@@ -17,11 +17,36 @@
 		0497D87827B3F5E8008E4E46 /* TallyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497D87727B3F5E7008E4E46 /* TallyItem.swift */; };
 		0497D87A27B4093D008E4E46 /* TallyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497D87927B4093D008E4E46 /* TallyTableViewCell.swift */; };
 		049B8553280F9267006A433D /* SwiftPieChart in Frameworks */ = {isa = PBXBuildFile; productRef = 049B8552280F9267006A433D /* SwiftPieChart */; };
+		04B483A82884F95D004F2250 /* JobDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4839E2884F95D004F2250 /* JobDetailCell.swift */; };
+		04B483A92884F95D004F2250 /* JobDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4839F2884F95D004F2250 /* JobDetail.swift */; };
+		04B483AA2884F95D004F2250 /* ApplyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B483A02884F95D004F2250 /* ApplyCell.swift */; };
+		04B483AB2884F95D004F2250 /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B483A12884F95D004F2250 /* MoreTableViewController.swift */; };
+		04B483AC2884F95D004F2250 /* PartTimeJobController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B483A22884F95D004F2250 /* PartTimeJobController.swift */; };
+		04B483AD2884F95D004F2250 /* MoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B483A32884F95D004F2250 /* MoreTableViewCell.swift */; };
+		04B483AE2884F95D004F2250 /* PublishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B483A42884F95D004F2250 /* PublishCell.swift */; };
+		04B483AF2884F95D004F2250 /* JobDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B483A52884F95D004F2250 /* JobDetailController.swift */; };
+		04B483B02884F95D004F2250 /* PartTimeJobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B483A62884F95D004F2250 /* PartTimeJobCell.swift */; };
+		04B483B12884F95D004F2250 /* MoreInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B483A72884F95D004F2250 /* MoreInformationViewController.swift */; };
 		04DEB53A280F89AF00646B8C /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DEB539280F89AF00646B8C /* HomeTabBarController.swift */; };
+		2BC27CF12831757D00AA46B6 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27CED2831757D00AA46B6 /* LoginController.swift */; };
+		2BC27CF22831757D00AA46B6 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27CEE2831757D00AA46B6 /* RegisterController.swift */; };
+		2BC27CF32831757D00AA46B6 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27CEF2831757D00AA46B6 /* AccountManager.swift */; };
+		2BC27CF42831757D00AA46B6 /* AccountBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27CF02831757D00AA46B6 /* AccountBaseController.swift */; };
+		2BC27CFC2831758700AA46B6 /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27CF62831758700AA46B6 /* MyViewModel.swift */; };
+		2BC27CFD2831758700AA46B6 /* My.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27CF82831758700AA46B6 /* My.swift */; };
+		2BC27CFE2831758700AA46B6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27CF92831758700AA46B6 /* AboutViewController.swift */; };
+		2BC27CFF2831758700AA46B6 /* MyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27CFA2831758700AA46B6 /* MyController.swift */; };
+		2BC27D002831758700AA46B6 /* MyHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27CFB2831758700AA46B6 /* MyHeadView.swift */; };
+		2BC27D07283175F800AA46B6 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27D02283175F800AA46B6 /* NSObject.swift */; };
+		2BC27D08283175F800AA46B6 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27D03283175F800AA46B6 /* HUD.swift */; };
+		2BC27D09283175F800AA46B6 /* SVProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27D04283175F800AA46B6 /* SVProgressHUD.swift */; };
+		2BC27D0A283175F800AA46B6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27D06283175F800AA46B6 /* Constant.swift */; };
+		2BC27D102831FAFC00AA46B6 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27D0F2831FAFC00AA46B6 /* BaseTableViewController.swift */; };
+		2BC27D122832071D00AA46B6 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC27D112832071D00AA46B6 /* MyTableViewCell.swift */; };
 		2BDCD40727FB3F7B003A04E5 /* AddBillItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCD40427FB3F7A003A04E5 /* AddBillItemViewController.swift */; };
 		2BDCD40827FB3F7B003A04E5 /* ChooseTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCD40527FB3F7A003A04E5 /* ChooseTypeViewController.swift */; };
 		2BDCD40927FB3F7B003A04E5 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCD40627FB3F7B003A04E5 /* TabBarItem.swift */; };
-		CA728394D75D57BC7F3EF11D /* libPods-EarnMoney.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BDB6CEF9714D8D9544F93C /* libPods-EarnMoney.a */; };
+		7A6D97C2FC0D591316A6E41B /* Pods_EarnMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960D5B38E8E6EF4CED300949 /* Pods_EarnMoney.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,13 +61,38 @@
 		0497D86027AF9BEA008E4E46 /* TallyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyViewController.swift; sourceTree = "<group>"; };
 		0497D87727B3F5E7008E4E46 /* TallyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyItem.swift; sourceTree = "<group>"; };
 		0497D87927B4093D008E4E46 /* TallyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyTableViewCell.swift; sourceTree = "<group>"; };
+		04B4839E2884F95D004F2250 /* JobDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailCell.swift; sourceTree = "<group>"; };
+		04B4839F2884F95D004F2250 /* JobDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetail.swift; sourceTree = "<group>"; };
+		04B483A02884F95D004F2250 /* ApplyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyCell.swift; sourceTree = "<group>"; };
+		04B483A12884F95D004F2250 /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
+		04B483A22884F95D004F2250 /* PartTimeJobController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartTimeJobController.swift; sourceTree = "<group>"; };
+		04B483A32884F95D004F2250 /* MoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewCell.swift; sourceTree = "<group>"; };
+		04B483A42884F95D004F2250 /* PublishCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishCell.swift; sourceTree = "<group>"; };
+		04B483A52884F95D004F2250 /* JobDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailController.swift; sourceTree = "<group>"; };
+		04B483A62884F95D004F2250 /* PartTimeJobCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartTimeJobCell.swift; sourceTree = "<group>"; };
+		04B483A72884F95D004F2250 /* MoreInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInformationViewController.swift; sourceTree = "<group>"; };
 		04DEB539280F89AF00646B8C /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 		11050202A8A09DAFA3BB6973 /* Pods-EarnMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarnMoney.release.xcconfig"; path = "Target Support Files/Pods-EarnMoney/Pods-EarnMoney.release.xcconfig"; sourceTree = "<group>"; };
+		2BC27CED2831757D00AA46B6 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		2BC27CEE2831757D00AA46B6 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		2BC27CEF2831757D00AA46B6 /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		2BC27CF02831757D00AA46B6 /* AccountBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountBaseController.swift; sourceTree = "<group>"; };
+		2BC27CF62831758700AA46B6 /* MyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
+		2BC27CF82831758700AA46B6 /* My.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = My.swift; sourceTree = "<group>"; };
+		2BC27CF92831758700AA46B6 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		2BC27CFA2831758700AA46B6 /* MyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyController.swift; sourceTree = "<group>"; };
+		2BC27CFB2831758700AA46B6 /* MyHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHeadView.swift; sourceTree = "<group>"; };
+		2BC27D02283175F800AA46B6 /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		2BC27D03283175F800AA46B6 /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		2BC27D04283175F800AA46B6 /* SVProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVProgressHUD.swift; sourceTree = "<group>"; };
+		2BC27D06283175F800AA46B6 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2BC27D0F2831FAFC00AA46B6 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		2BC27D112832071D00AA46B6 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		2BDCD40427FB3F7A003A04E5 /* AddBillItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBillItemViewController.swift; sourceTree = "<group>"; };
 		2BDCD40527FB3F7A003A04E5 /* ChooseTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseTypeViewController.swift; sourceTree = "<group>"; };
 		2BDCD40627FB3F7B003A04E5 /* TabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		960D5B38E8E6EF4CED300949 /* Pods_EarnMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarnMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26BD8F58796093965AA9294 /* Pods-EarnMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarnMoney.debug.xcconfig"; path = "Target Support Files/Pods-EarnMoney/Pods-EarnMoney.debug.xcconfig"; sourceTree = "<group>"; };
-		E4BDB6CEF9714D8D9544F93C /* libPods-EarnMoney.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EarnMoney.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +101,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				049B8553280F9267006A433D /* SwiftPieChart in Frameworks */,
-				CA728394D75D57BC7F3EF11D /* libPods-EarnMoney.a in Frameworks */,
+				7A6D97C2FC0D591316A6E41B /* Pods_EarnMoney.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,11 +129,13 @@
 		0446346D27AE415900C097E7 /* EarnMoney */ = {
 			isa = PBXGroup;
 			children = (
+				2BC27D0E2831FAFC00AA46B6 /* Base */,
+				2BC27D05283175F800AA46B6 /* Constant */,
+				2BC27D01283175F800AA46B6 /* Extension */,
 				04C77DAD27AF919E00F3DA48 /* AppDelegate */,
 				04C77DAE27AF91BA00F3DA48 /* Modules */,
 				04C77DB627AF926500F3DA48 /* Manager */,
 				04C77DB727AF926E00F3DA48 /* Utils */,
-				04C77DB827AF927900F3DA48 /* Base */,
 				04C77DBA27AF928F00F3DA48 /* ThirdParty */,
 				04C77DB327AF920000F3DA48 /* Define */,
 				04C77DBC27AF92D200F3DA48 /* Resource */,
@@ -93,6 +145,23 @@
 				0446347C27AE415C00C097E7 /* Info.plist */,
 			);
 			path = EarnMoney;
+			sourceTree = "<group>";
+		};
+		04B4839D2884F95D004F2250 /* More(更多信息) */ = {
+			isa = PBXGroup;
+			children = (
+				04B4839E2884F95D004F2250 /* JobDetailCell.swift */,
+				04B4839F2884F95D004F2250 /* JobDetail.swift */,
+				04B483A02884F95D004F2250 /* ApplyCell.swift */,
+				04B483A12884F95D004F2250 /* MoreTableViewController.swift */,
+				04B483A22884F95D004F2250 /* PartTimeJobController.swift */,
+				04B483A32884F95D004F2250 /* MoreTableViewCell.swift */,
+				04B483A42884F95D004F2250 /* PublishCell.swift */,
+				04B483A52884F95D004F2250 /* JobDetailController.swift */,
+				04B483A62884F95D004F2250 /* PartTimeJobCell.swift */,
+				04B483A72884F95D004F2250 /* MoreInformationViewController.swift */,
+			);
+			path = "More(更多信息)";
 			sourceTree = "<group>";
 		};
 		04C77DAD27AF919E00F3DA48 /* AppDelegate */ = {
@@ -107,10 +176,10 @@
 		04C77DAE27AF91BA00F3DA48 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				04C77DC027AF98AF00F3DA48 /* More(更多信息) */,
+				04B4839D2884F95D004F2250 /* More(更多信息) */,
+				2BC27CF52831758700AA46B6 /* Mine(我的页) */,
+				2BC27CEC2831757D00AA46B6 /* Account */,
 				04C77DBD27AF983700F3DA48 /* Home(记账页面) */,
-				04C77DBE27AF984300F3DA48 /* Mine(我的页) */,
-				04C77DBF27AF988500F3DA48 /* Login(登陆) */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -143,13 +212,6 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		04C77DB827AF927900F3DA48 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		04C77DBA27AF928F00F3DA48 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,31 +242,68 @@
 			path = "Home(记账页面)";
 			sourceTree = "<group>";
 		};
-		04C77DBE27AF984300F3DA48 /* Mine(我的页) */ = {
+		2BC27CEC2831757D00AA46B6 /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				2BC27CED2831757D00AA46B6 /* LoginController.swift */,
+				2BC27CEE2831757D00AA46B6 /* RegisterController.swift */,
+				2BC27CEF2831757D00AA46B6 /* AccountManager.swift */,
+				2BC27CF02831757D00AA46B6 /* AccountBaseController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		2BC27CF52831758700AA46B6 /* Mine(我的页) */ = {
+			isa = PBXGroup;
+			children = (
+				2BC27CF62831758700AA46B6 /* MyViewModel.swift */,
+				2BC27CF72831758700AA46B6 /* Model */,
+				2BC27CF92831758700AA46B6 /* AboutViewController.swift */,
+				2BC27CFA2831758700AA46B6 /* MyController.swift */,
+				2BC27CFB2831758700AA46B6 /* MyHeadView.swift */,
+				2BC27D112832071D00AA46B6 /* MyTableViewCell.swift */,
 			);
 			path = "Mine(我的页)";
 			sourceTree = "<group>";
 		};
-		04C77DBF27AF988500F3DA48 /* Login(登陆) */ = {
+		2BC27CF72831758700AA46B6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2BC27CF82831758700AA46B6 /* My.swift */,
 			);
-			path = "Login(登陆)";
+			path = Model;
 			sourceTree = "<group>";
 		};
-		04C77DC027AF98AF00F3DA48 /* More(更多信息) */ = {
+		2BC27D01283175F800AA46B6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				2BC27D02283175F800AA46B6 /* NSObject.swift */,
+				2BC27D03283175F800AA46B6 /* HUD.swift */,
+				2BC27D04283175F800AA46B6 /* SVProgressHUD.swift */,
 			);
-			path = "More(更多信息)";
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2BC27D05283175F800AA46B6 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				2BC27D06283175F800AA46B6 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		2BC27D0E2831FAFC00AA46B6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2BC27D0F2831FAFC00AA46B6 /* BaseTableViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		8438E9C320C2CC2131B9D726 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E4BDB6CEF9714D8D9544F93C /* libPods-EarnMoney.a */,
+				960D5B38E8E6EF4CED300949 /* Pods_EarnMoney.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,9 +325,11 @@
 			buildConfigurationList = 0446347F27AE415C00C097E7 /* Build configuration list for PBXNativeTarget "EarnMoney" */;
 			buildPhases = (
 				CEF6F4AE422B75D456A1C612 /* [CP] Check Pods Manifest.lock */,
+				2BC27D13283229D600AA46B6 /* ShellScript */,
 				0446346727AE415900C097E7 /* Sources */,
 				0446346827AE415900C097E7 /* Frameworks */,
 				0446346927AE415900C097E7 /* Resources */,
+				50EAAFD7AA167A0A67BCD574 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,6 +393,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2BC27D13283229D600AA46B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		50EAAFD7AA167A0A67BCD574 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarnMoney/Pods-EarnMoney-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarnMoney/Pods-EarnMoney-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EarnMoney/Pods-EarnMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CEF6F4AE422B75D456A1C612 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -321,16 +458,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B483AA2884F95D004F2250 /* ApplyCell.swift in Sources */,
+				2BC27CF12831757D00AA46B6 /* LoginController.swift in Sources */,
 				0446348327AE493C00C097E7 /* TabBarViewController.swift in Sources */,
+				04B483B02884F95D004F2250 /* PartTimeJobCell.swift in Sources */,
+				04B483AE2884F95D004F2250 /* PublishCell.swift in Sources */,
 				0497D86127AF9BEA008E4E46 /* TallyViewController.swift in Sources */,
+				2BC27CFF2831758700AA46B6 /* MyController.swift in Sources */,
 				04DEB53A280F89AF00646B8C /* HomeTabBarController.swift in Sources */,
+				2BC27CF42831757D00AA46B6 /* AccountBaseController.swift in Sources */,
 				2BDCD40927FB3F7B003A04E5 /* TabBarItem.swift in Sources */,
+				04B483AF2884F95D004F2250 /* JobDetailController.swift in Sources */,
 				0446346F27AE415900C097E7 /* AppDelegate.swift in Sources */,
 				0497D87827B3F5E8008E4E46 /* TallyItem.swift in Sources */,
+				04B483AD2884F95D004F2250 /* MoreTableViewCell.swift in Sources */,
 				2BDCD40827FB3F7B003A04E5 /* ChooseTypeViewController.swift in Sources */,
+				2BC27D0A283175F800AA46B6 /* Constant.swift in Sources */,
+				2BC27CFE2831758700AA46B6 /* AboutViewController.swift in Sources */,
+				2BC27CFD2831758700AA46B6 /* My.swift in Sources */,
+				2BC27CF32831757D00AA46B6 /* AccountManager.swift in Sources */,
+				2BC27CF22831757D00AA46B6 /* RegisterController.swift in Sources */,
+				2BC27D002831758700AA46B6 /* MyHeadView.swift in Sources */,
+				2BC27D09283175F800AA46B6 /* SVProgressHUD.swift in Sources */,
 				2BDCD40727FB3F7B003A04E5 /* AddBillItemViewController.swift in Sources */,
+				2BC27D122832071D00AA46B6 /* MyTableViewCell.swift in Sources */,
+				2BC27D102831FAFC00AA46B6 /* BaseTableViewController.swift in Sources */,
+				04B483A82884F95D004F2250 /* JobDetailCell.swift in Sources */,
+				04B483AB2884F95D004F2250 /* MoreTableViewController.swift in Sources */,
 				0497D87A27B4093D008E4E46 /* TallyTableViewCell.swift in Sources */,
+				2BC27D07283175F800AA46B6 /* NSObject.swift in Sources */,
+				04B483B12884F95D004F2250 /* MoreInformationViewController.swift in Sources */,
+				2BC27D08283175F800AA46B6 /* HUD.swift in Sources */,
 				0446347127AE415900C097E7 /* SceneDelegate.swift in Sources */,
+				2BC27CFC2831758700AA46B6 /* MyViewModel.swift in Sources */,
+				04B483A92884F95D004F2250 /* JobDetail.swift in Sources */,
+				04B483AC2884F95D004F2250 /* PartTimeJobController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,13 +650,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zbb.EarnMoney;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbb.EarnMoney2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -518,13 +680,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zbb.EarnMoney;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbb.EarnMoney2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
