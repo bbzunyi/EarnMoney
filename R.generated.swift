@@ -662,11 +662,12 @@ struct _R: Rswift.Validatable {
       }
 
       static func validate() throws {
+        if UIKit.UIImage(named: "25", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '25' is used in storyboard 'Main', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "33", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '33' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "ATM", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ATM' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "amusement", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'amusement' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "baba", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'baba' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "baby", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'baby' is used in storyboard 'Main', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "books", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'books' is used in storyboard 'Main', but couldn't be loaded.") }
         if #available(iOS 13.0, *) { if UIKit.UIImage(systemName: "calendar") == nil { throw Rswift.ValidationError(description: "[R.swift] System image named 'calendar' is used in storyboard 'Main', but couldn't be loaded.") } }
         if UIKit.UIImage(named: "daily", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'daily' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "edu", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'edu' is used in storyboard 'Main', but couldn't be loaded.") }
@@ -689,10 +690,9 @@ struct _R: Rswift.Validatable {
         if UIKit.UIImage(named: "salary", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'salary' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "save", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'save' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "shopping", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'shopping' is used in storyboard 'Main', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "show", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'show' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "social", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'social' is used in storyboard 'Main', but couldn't be loaded.") }
-        if UIKit.UIImage(named: "test11.pic", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'test11.pic' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "test9", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'test9' is used in storyboard 'Main', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "ticket", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'ticket' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "traffic", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'traffic' is used in storyboard 'Main', but couldn't be loaded.") }
         if UIKit.UIImage(named: "vip", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'vip' is used in storyboard 'Main', but couldn't be loaded.") }
         if #available(iOS 11.0, tvOS 11.0, *) {
